@@ -26,9 +26,9 @@ This is the entropy facebook api
 Base URLs:
 
 * <a href="https://pending.entropy.tech/v1">https://pending.entropy.tech/v1</a>
-
-Email: <a href="mailto:karina@entropy.tech">Support</a> 
-
+Contact developers:
+Karina: <a href="mailto:karina@entropy.tech">Support</a>
+Alejandro: <a href="mailto:alejandro@entropy.tech">Support</a>
 <h1 id="facebook-api-organizations">organizations</h1>
 
 Entropy organizations resource
@@ -161,7 +161,7 @@ func main() {
     headers := map[string][]string{
         "Content-Type": []string{"application/json"},
         "Accept": []string{"application/json"},
-        
+
     }
 
     data := bytes.NewBuffer([]byte{jsonReq})
@@ -243,9 +243,9 @@ Status Code **500**
 |---|---|---|---|---|
 |» message|string|false|none|none|
 
-<aside class="success">
+<!-- <aside class="success">
 This operation does not require authentication
-</aside>
+</aside> -->
 
 ## get__organizations
 
@@ -364,7 +364,7 @@ func main() {
 
     headers := map[string][]string{
         "Accept": []string{"application/json"},
-        
+
     }
 
     data := bytes.NewBuffer([]byte{jsonReq})
@@ -424,9 +424,9 @@ Status Code **500**
 |---|---|---|---|---|
 |» message|string|false|none|none|
 
-<aside class="success">
+<!-- <aside class="success">
 This operation does not require authentication
-</aside>
+</aside> -->
 
 ## put__organizations_{organizationId}
 
@@ -545,7 +545,7 @@ func main() {
 
     headers := map[string][]string{
         "Accept": []string{"application/json"},
-        
+
     }
 
     data := bytes.NewBuffer([]byte{jsonReq})
@@ -608,9 +608,9 @@ Status Code **500**
 |---|---|---|---|---|
 |» message|string|false|none|none|
 
-<aside class="success">
+<!-- <aside class="success">
 This operation does not require authentication
-</aside>
+</aside> -->
 
 ## get__organizations_{organizationId}
 
@@ -729,7 +729,7 @@ func main() {
 
     headers := map[string][]string{
         "Accept": []string{"application/json"},
-        
+
     }
 
     data := bytes.NewBuffer([]byte{jsonReq})
@@ -800,9 +800,9 @@ Status Code **500**
 |---|---|---|---|---|
 |» message|string|false|none|none|
 
-<aside class="success">
+<!-- <aside class="success">
 This operation does not require authentication
-</aside>
+</aside> -->
 
 ## get__organizations_{organizationId}_members
 
@@ -921,7 +921,7 @@ func main() {
 
     headers := map[string][]string{
         "Accept": []string{"application/json"},
-        
+
     }
 
     data := bytes.NewBuffer([]byte{jsonReq})
@@ -989,9 +989,9 @@ Status Code **500**
 |---|---|---|---|---|
 |» message|string|false|none|none|
 
-<aside class="success">
+<!-- <aside class="success">
 This operation does not require authentication
-</aside>
+</aside> -->
 
 <h1 id="facebook-api-credentials">credentials</h1>
 
@@ -1124,7 +1124,7 @@ func main() {
     headers := map[string][]string{
         "Content-Type": []string{"application/json"},
         "Accept": []string{"application/json"},
-        
+
     }
 
     data := bytes.NewBuffer([]byte{jsonReq})
@@ -1200,9 +1200,9 @@ Status Code **500**
 |---|---|---|---|---|
 |» message|string|false|none|none|
 
-<aside class="success">
+<!-- <aside class="success">
 This operation does not require authentication
-</aside>
+</aside> -->
 
 ## get__organizations_{organizationId}_credentials
 
@@ -1321,7 +1321,7 @@ func main() {
 
     headers := map[string][]string{
         "Accept": []string{"appplication/json"},
-        
+
     }
 
     data := bytes.NewBuffer([]byte{jsonReq})
@@ -1379,9 +1379,9 @@ Status Code **401**
 |---|---|---|---|---|
 |» message|string|false|none|none|
 
-<aside class="success">
+<!-- <aside class="success">
 This operation does not require authentication
-</aside>
+</aside> -->
 
 ## get__organizations_{organizationId}_credentials_{credentialId}
 
@@ -1500,7 +1500,7 @@ func main() {
 
     headers := map[string][]string{
         "Accept": []string{"application/json"},
-        
+
     }
 
     data := bytes.NewBuffer([]byte{jsonReq})
@@ -1565,9 +1565,9 @@ Status Code **500**
 |---|---|---|---|---|
 |» message|string|false|none|none|
 
-<aside class="success">
+<!-- <aside class="success">
 This operation does not require authentication
-</aside>
+</aside> -->
 
 ## delete__organizations_{organizationId}_credentials_{credentialId}
 
@@ -1686,7 +1686,7 @@ func main() {
 
     headers := map[string][]string{
         "Accept": []string{"application/json"},
-        
+
     }
 
     data := bytes.NewBuffer([]byte{jsonReq})
@@ -1743,9 +1743,9 @@ Status Code **500**
 |---|---|---|---|---|
 |» message|string|false|none|none|
 
-<aside class="success">
+<!-- <aside class="success">
 This operation does not require authentication
-</aside>
+</aside> -->
 
 ## put__organizations_{organizationId}_credentials_{credentialId}
 
@@ -1874,7 +1874,7 @@ func main() {
     headers := map[string][]string{
         "Content-Type": []string{"application/json"},
         "Accept": []string{"application/json"},
-        
+
     }
 
     data := bytes.NewBuffer([]byte{jsonReq})
@@ -1951,7 +1951,6 @@ Status Code **500**
 |---|---|---|---|---|
 |» message|string|false|none|none|
 
-<aside class="success">
+<!-- <aside class="success">
 This operation does not require authentication
-</aside>
-
+</aside> -->
