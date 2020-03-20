@@ -26,9 +26,9 @@ This is the entropy facebook api
 Base URLs:
 
 * <a href="https://pending.entropy.tech/v1">https://pending.entropy.tech/v1</a>
-Contact developers:
-Karina: <a href="mailto:karina@entropy.tech">Support</a>
-Alejandro: <a href="mailto:alejandro@entropy.tech">Support</a>
+   Contact developers:
+   Karina: <a href="mailto:karina@entropy.tech">email</a>
+   Alejandro: <a href="mailto:alejandro@entropy.tech">email</a>
 <h1 id="facebook-api-organizations">organizations</h1>
 
 Entropy organizations resource
